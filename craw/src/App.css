@@ -79,20 +79,6 @@ body {
 .circle:hover .circle-invisible {transform: translate(-50%, -50%) scale(1);}
 
 
-
-/*
-.small-circle:nth-child(1):active {
-  .small-circle:nth-child(1) { transform: translate(-50%, -50%) scale(1) rotate(0deg) translateY(100px); }
-  .small-circle:nth-child(6) { transform: translate(-50%, -50%) scale(1) rotate(0deg) translateY(-100px); }
-  .small-circle:nth-child(2) { transform: translate(-50%, -50%) scale(1) rotate(60deg) translateY(-100px); }
-  .small-circle:nth-child(3) { transform: translate(-50%, -50%) scale(1) rotate(120deg) translateY(-100px); }
-  .small-circle:nth-child(4) { transform: translate(-50%, -50%) scale(1) rotate(300deg) translateY(-100px); }
-  .small-circle:nth-child(5) { transform: translate(-50%, -50%) scale(1) rotate(240deg) translateY(-100px); }
-  .circle-invisible {transform: translate(-50%, -50%) scale(1);}
-}
-  
-*/
-
 @keyframes lowerout {
   0% {
     transform: translate(0, 0);
